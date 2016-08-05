@@ -1,0 +1,53 @@
+{
+    "author": "jacob.rusch@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "dial",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "MULTI_SCREEN_WORKING",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "KEY_CITY": 0,
+            "KEY_TEMP": 10,
+            "KEY_TEMP1": 2,
+            "KEY_TEMP2": 5,
+            "KEY_TEMP3": 8,
+            "KEY_TIME1": 1,
+            "KEY_TIME2": 4,
+            "KEY_TIME3": 7,
+            "KEY_WEATHERDESC1": 3,
+            "KEY_WEATHERDESC2": 6,
+            "KEY_WEATHERDESC3": 9
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/MOBILE_SANS_FONT",
+                    "name": "MOBILE_SANS_FONT_12",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/CLOCK_IMAGE",
+                    "menuIcon": true,
+                    "name": "CLOCK_IMAGE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite"
+        ],
+        "uuid": "416624de-4a25-4d58-8799-24afade4fd91",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
